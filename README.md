@@ -11,6 +11,8 @@ The trick is that the sample rate of the effect and other features can be contro
 
 This is a simple but fun educational device that can help you get started making Arduino devices. Check out the fully comemnted code for more info. 
 
+<img src="https://raw.githubusercontent.com/BleepLabs/Rad-Fi-Delay-1.5/master/assembled-device.jpg">
+
 <a href="https://docs.google.com/spreadsheets/d/1HgXk2Bo4Rd0A5V1MbUsgcbOM54Az-JnbRDxo8K8Pac8/edit?usp=sharing">Parts list</a>
 
 <a href="https://github.com/BleepLabs/Rad-Fi-Delay-1.5/blob/master/Intro%20to%20breadboards.pdf">Getting started with breadbords guide</a>
@@ -31,6 +33,9 @@ All of the marked colums on the bottom side are digital inputs. Theyr are activa
 
 
 <img src="https://raw.githubusercontent.com/BleepLabs/Rad-Fi-Delay-1.5/master/schematic.bmp">
+An input opamp is required to get the audio to the correct level and protect the Teensy. 
+After the input jack there is a simple attenuator. This volume control pot allows you to use signals with a large range like those coming from a modualr syth or quieter ones like those coming from a line level output. 
+Then a capacitor and resitors going to 3v3 and ground. This centers the signal around the halfway point, 1.65V. Next another resistor and opamp. This buffers and amplifies the signal and keeps the output between 3v3 and ground. The opamp below it makes another voltage referance at 1.65V for the first opamp to operate with. 
 
 ---------------
 
