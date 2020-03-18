@@ -32,7 +32,7 @@ Once you get all the parts together upload the code found in the "rad_delay_1v5"
 All of the marked colums on the bottom side are digital inputs. Theyr are activated when the recieve a low signal, that is they are conencted to ground. You can mannualt use a wire to do thos or one of the oscillator outputs on the top of the Teensy. 
 
 
-<img src="https://raw.githubusercontent.com/BleepLabs/Rad-Fi-Delay-1.5/master/schematic.bmp">
+<img src="https://raw.githubusercontent.com/BleepLabs/Rad-Fi-Delay-1.5/master/rad%20fi%20delay%201v5%20schematic.bmp">
 An input opamp is required to get the audio to the correct level and protect the Teensy. 
 After the input jack there is a simple attenuator. This volume control pot allows you to use signals with a large range like those coming from a modualr syth or quieter ones like those coming from a line level output. 
 Then a capacitor and resitors going to 3v3 and ground. This centers the signal around the halfway point, 1.65V. Next another resistor and opamp. This buffers and amplifies the signal and keeps the output between 3v3 and ground. The opamp below it makes another voltage referance at 1.65V for the first opamp to operate with. 
@@ -46,7 +46,8 @@ Not right now but if you're interested sign up for <a href="https://confirmsubsc
 <i>Why not use the <a href="https://www.pjrc.com/teensy/td_libs_Audio.html">Audio libary</a> and board?</i><br>
 I love Paul's audio library and have used it on my producest and even contributed to it but I like to make things from scratch too. Also, this device is meant as an eduatioanl tool for coding Arduino devices using the least amount of parts possible.   
 
-
+Email me with any questions
+drbleep@bleeplabs.com
 
 
 
