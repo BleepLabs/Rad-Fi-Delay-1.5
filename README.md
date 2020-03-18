@@ -1,7 +1,7 @@
 # Rad-Fi-Delay-1.5
 Breadboard based glitchy delay using the Teensy 3.2
 
-See it in action here 
+See it in action <a href="https://www.instagram.com/p/B95Jid-hxqO/?utm_source=ig_web_copy_link">here.</a>
 
 The rad fi delay 1.5 is an updated version of the <a href="http://bleeplabs.com/rad-fi-central/">original arduino based lo-fi glitch effect</a> released by Bleep Labs in 2015. This new version is meant as a quick breadboard or soldering project you can build right now using off the shelf parts. 
 Unlike the atmega328 used in the original, this updated device uses the Teensy 3.2. This allows it to sample audio at 44.1k while still maintaining the simple glitchiness of the original. 
