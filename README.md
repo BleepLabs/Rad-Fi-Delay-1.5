@@ -25,7 +25,7 @@ Once you get all the parts together upload the code found in the "rad_delay_1v5"
 <img src="https://raw.githubusercontent.com/BleepLabs/Rad-Fi-Delay-1.5/master/Rad-fi-delay-1v5-breadboard-layout.png">
 All of the marked colums on the bottom side are digital inputs. Theyr are activated when the recieve a low signal, that is they are conencted to ground. You can mannualt use a wire to do thos or one of the oscillator outputs on the top of the Teensy. 
 
-~~~~~~~~~~~
+---------------
 
 <i>Are you selling a kit</i>
 Not right now but if you're interested sign up for this mailing list and I'll email about this only. (Sign up here for all Bleep Labs news). I threw this device together with the simplest parts possbile so anyone could get the parts they need from a variety of sources (see the <a href="https://docs.google.com/spreadsheets/d/1HgXk2Bo4Rd0A5V1MbUsgcbOM54Az-JnbRDxo8K8Pac8/edit?usp=sharing">Parts list</a>
