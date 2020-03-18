@@ -1,6 +1,8 @@
 # Rad-Fi-Delay-1.5
 Breadboard based glitchy delay using the Teensy 3.2
 
+See it in action here 
+
 The rad fi delay 1.5 is an updated version of the <a href="http://bleeplabs.com/rad-fi-central/">original arduino based lo-fi glitch effect</a> released by Bleep Labs in 2015. This new version is meant as a quick breadboard or soldering project you can build right now using off the shelf parts. 
 Unlike the atmega328 used in the original, this updated device uses the Teensy 3.2. This allows it to sample audio at 44.1k while still maintaining the simple glitchiness of the original. 
 
@@ -27,11 +29,11 @@ All of the marked colums on the bottom side are digital inputs. Theyr are activa
 
 ---------------
 
-<i>Are you selling a kit</i>
-Not right now but if you're interested sign up for this mailing list and I'll email about this only. (Sign up here for all Bleep Labs news). I threw this device together with the simplest parts possbile so anyone could get the parts they need from a variety of sources (see the <a href="https://docs.google.com/spreadsheets/d/1HgXk2Bo4Rd0A5V1MbUsgcbOM54Az-JnbRDxo8K8Pac8/edit?usp=sharing">Parts list</a>
+<i>Are you selling a kit?</i><br>
+Not right now but if you're interested sign up for <a href="https://confirmsubscription.com/h/r/35B95AB32EF3DEEC2540EF23F30FEDED">this mailing list<a/> and I'll email about this <b>only</b>. (Sign up <a href="https://confirmsubscription.com/h/r/A3B09EAD151885B6">here</a> for all Bleep Labs news). I threw this device together with the simplest parts possbile so anyone could get the parts they need from a variety of sources (see the <a href="https://docs.google.com/spreadsheets/d/1HgXk2Bo4Rd0A5V1MbUsgcbOM54Az-JnbRDxo8K8Pac8/edit?usp=sharing">Parts list</a>
 ). 
 
-<i>Why not use the <a href="https://www.pjrc.com/teensy/td_libs_Audio.html">Audio libary</a> and board?</i>
+<i>Why not use the <a href="https://www.pjrc.com/teensy/td_libs_Audio.html">Audio libary</a> and board?</i><br>
 I love Paul's audio library and have used it on my producest and even contributed to it but I like to make things from scratch too. Also, this device is meant as an eduatioanl tool for coding Arduino devices using the least amount of parts possible.   
 
 
