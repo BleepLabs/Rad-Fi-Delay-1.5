@@ -9,6 +9,8 @@ Unlike the atmega328 used in the original, this updated device uses the Teensy 3
 The Rad-Fi Delay can work just like a standard delay effect with a feedback and delay time control.
 The trick is that the sample rate of the effect and other features can be controlled with digital inputs and three square wave oscillator outputs. This produces odd arpeggiated, granular sounds. 
 
+This is a simple but fun educational device that can help you get started making Arduino devices. Check out the fully comemnted code for more info. 
+
 <a href="https://docs.google.com/spreadsheets/d/1HgXk2Bo4Rd0A5V1MbUsgcbOM54Az-JnbRDxo8K8Pac8/edit?usp=sharing">Parts list</a>
 
 <a href="https://github.com/BleepLabs/Rad-Fi-Delay-1.5/blob/master/Intro%20to%20breadboards.pdf">Getting started with breadbords guide</a>
@@ -26,6 +28,9 @@ Once you get all the parts together upload the code found in the "rad_delay_1v5"
 
 <img src="https://raw.githubusercontent.com/BleepLabs/Rad-Fi-Delay-1.5/master/Rad-fi-delay-1v5-breadboard-layout.png">
 All of the marked colums on the bottom side are digital inputs. Theyr are activated when the recieve a low signal, that is they are conencted to ground. You can mannualt use a wire to do thos or one of the oscillator outputs on the top of the Teensy. 
+
+
+<img src="https://raw.githubusercontent.com/BleepLabs/Rad-Fi-Delay-1.5/master/schematic.bmp">
 
 ---------------
 
