@@ -33,7 +33,7 @@ Once you get all the parts together upload the code found in the "rad_delay_1v5"
 All of the marked columns on the bottom side are digital inputs. There are activated when the receive a low signal, that is they are connected to ground. You can manually use a wire to do this or use one of the oscillator outputs on the top of the Teensy. 
 
 
-<img src="https://raw.githubusercontent.com/BleepLabs/Rad-Fi-Delay-1.5/master/rad%20fi%20delay%201v5%20schematic.bmp">
+<img src="https://raw.githubusercontent.com/BleepLabs/Rad-Fi-Delay-1.5/master/rad%20fi%20delay%201v5%20schematic%202.bmp">
 An input opamp is required to get the audio to the correct level and protect the Teensy. 
 After the input jack there is a simple attenuator. This volume control pot allows you to use signals with a large range like those coming from a modular synth or quieter ones like those coming from a line level output. 
 Then a capacitor and resistors going to 3v3 and ground. This centers the signal around the halfway point, 1.65V. Next another resistor and opamp. This buffers and amplifies the signal and keeps the output between 3v3 and ground. The opamp below it makes another voltage reference at 1.65V for the first opamp to operate with. 
