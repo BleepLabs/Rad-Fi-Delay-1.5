@@ -29,7 +29,7 @@ There is one thing that needs soldering or at least a wire twisted tightly on it
 
 Once you get all the parts together upload the code found in the "rad_delay_1v5" folder above to the Teesny. <a href="https://www.pjrc.com/teensy/teensyduino.html">Guide here.</a>
 
-<img src="https://raw.githubusercontent.com/BleepLabs/Rad-Fi-Delay-1.5/master/Rad-fi-delay-1v5-breadboard-layout.png">
+<img src="https://raw.githubusercontent.com/BleepLabs/Rad-Fi-Delay-1.5/master/Rad-fi-delay-1v5-breadboard-layout-2.png">
 All of the marked columns on the bottom side are digital inputs. There are activated when the receive a low signal, that is they are connected to ground. You can manually use a wire to do this or use one of the oscillator outputs on the top of the Teensy. 
 
 
