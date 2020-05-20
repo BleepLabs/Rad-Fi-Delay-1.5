@@ -1,12 +1,12 @@
 /*
- * The Rad-Fi Delay 1.5
- * John-Micahel Reed 
- * BleepLabs.com
- * 
- * Glitchy delay using a teesny 3.2 and simple parts
- * https://github.com/BleepLabs/Rad-Fi-Delay-1.5
- * 
- */
+   The Rad-Fi Delay 1.5
+   John-Micahel Reed
+   BleepLabs.com
+
+   Glitchy delay using a teesny 3.2 and simple parts
+   https://github.com/BleepLabs/Rad-Fi-Delay-1.5
+
+*/
 
 #include <ADC.h>
 ADC *adc = new ADC(); // adc object. THe adc library allows for faster analog reading
@@ -24,7 +24,7 @@ float rate[4];
   the delay intervals are how much to slow down the delay sampling rate
   2^16 =  65536 is full rate. Half of that, 32768, is half the rate
   these sets of values are for the three input pins
-  The 
+  The
 */
 byte interval_sel;
 uint16_t delay_intervals[4][3] = {
@@ -91,18 +91,18 @@ void setup() {
 
 
   //adc_1 controls pins A2 and A3, Adc_0 are the rest (on the top side of the teesny)
-  adc->setAveraging(2, ADC_1); // set number of averages
-  adc->setResolution(12, ADC_1); // set bits of resolution
+  adc->adc1->setAveraging(2); // set number of averages
+  adc->adc1->setResolution(12); // set bits of resolution
 
-  adc->setConversionSpeed(ADC_CONVERSION_SPEED::HIGH_SPEED, ADC_1); // change the conversion speed
+  adc->adc1->setConversionSpeed(ADC_CONVERSION_SPEED::HIGH_SPEED); // change the conversion speed
   // it can be any of the ADC_MED_SPEED enum: VERY_LOW_SPEED, LOW_SPEED, MED_SPEED, HIGH_SPEED or VERY_HIGH_SPEED
-  adc->setSamplingSpeed(ADC_SAMPLING_SPEED::HIGH_SPEED, ADC_1); // change the sampling speed
+  adc->adc1->setSamplingSpeed(ADC_SAMPLING_SPEED::HIGH_SPEED); // change the sampling speed
 
-  adc->setAveraging(16, ADC_0); // set number of averages
-  adc->setResolution(12, ADC_0); // set bits of resolution
+  adc->adc0->setAveraging(16); // set number of averages
+  adc->adc0->setResolution(12); // set bits of resolution
 
-  adc->setConversionSpeed(ADC_CONVERSION_SPEED::MED_SPEED, ADC_0); // change the conversion speed
-  adc->setSamplingSpeed(ADC_SAMPLING_SPEED::MED_SPEED, ADC_0); // change the sampling speed
+  adc->adc0->setConversionSpeed(ADC_CONVERSION_SPEED::MED_SPEED); // change the conversion speed
+  adc->adc0->setSamplingSpeed(ADC_SAMPLING_SPEED::MED_SPEED); // change the sampling speed
 
   timer1.begin(dly1, dds_rate);
   timer1.priority(1);
