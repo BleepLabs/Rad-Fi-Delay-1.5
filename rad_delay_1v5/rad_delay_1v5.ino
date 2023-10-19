@@ -114,7 +114,7 @@ void loop() {
   if ((millis() - prev[1]) > 20) {
     prev[1] = millis();
     /*
-      Converting your linear potentiometer readings to logarkymic ones gives you a much more
+      Converting your linear potentiometer readings to log ones gives you a much more
       natural response whrn controlling frequency. Here the raw value is rasied to the second power
       then divided by it's top valuse, 4096 aka >>12.
       It's divide again to get it to the final range we want. Dividing is fine here since were not after speed
