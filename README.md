@@ -1,7 +1,7 @@
 # Rad-Fi-Delay-1.5
   
 Oct 2023 update:  
-Unfortuantley the Teensy 3.2 is no longer available so this guid isn't to helpful. The Teensy 4 is much more posverful but lacks a built in DAC. The code could be modified to use a simple SPI DAC like a MCP4921.  
+Unfortuantley the Teensy 3.2 is no longer available so this guide isn't to helpful. The Teensy 4 is much more posverful but lacks a built in DAC. The code could be modified to use a simple SPI DAC like a MCP4921.  
 
 ****
 
